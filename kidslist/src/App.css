@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.List-Wrapper {
+  display: flex;
+  background-color: whitesmoke;
+  color: rgb(26, 45, 107);
+  border-radius: 20px;
+  width: 90%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.Item-Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(174, 174, 252);
+  margin: 1%;
+  border-radius: 10px;
+  padding: 10px;
+  width: 20%;
+  min-height: 100%;
+}
+
+.Item-Wrapper img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+.Description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(174, 174, 252);
+  margin: 1%;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  min-height: 100%;
+}
+
+.Description img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+.Rec-Wrapper {
+  display: flex;
+  background-color: whitesmoke;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(10, 20, 53);
+  border-radius: 20px;
+  width: 80%;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Rec-Item-Wrapper {
+  display: flex;
+  align-items: center;
+  background-color: rgb(196, 196, 252);
+  margin: 2%;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 40%;
+  min-height: 50%;
+}
+
+.Rec-Wrapper img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  background-color: whitesmoke;
+  color: rgb(26, 45, 107);
+  border-radius: 5px;
+  width: 70%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.rate-nav {
+  display: flex;
+  background-color: rgb(109, 164, 228);
+  color: rgb(29, 41, 80);
+  border-radius: 5px;
+  width: 70%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Icebox */
+
+.searchBar {
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 40%;
+}
